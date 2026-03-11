@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  user-service:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+
+  task-service:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+
+  category-service:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+
+  frontend:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"

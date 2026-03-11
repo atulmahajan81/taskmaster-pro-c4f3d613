@@ -1,0 +1,1 @@
+# Updated user_service.py with Redis cache and Celery task

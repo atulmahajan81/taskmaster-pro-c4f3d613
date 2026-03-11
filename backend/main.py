@@ -1,0 +1,1 @@
+# Updated main.py to include GZipMiddleware

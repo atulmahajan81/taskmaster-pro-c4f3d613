@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  user-service:
+    volumes:
+      - ./backend:/app
+
+  task-service:
+    volumes:
+      - ./backend:/app
+
+  category-service:
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=development

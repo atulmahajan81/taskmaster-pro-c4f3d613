@@ -1,0 +1,1 @@
+# Updated database.py with connection pool configuration
